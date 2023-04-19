@@ -1,0 +1,11 @@
+[grid]
+W:          5
+H:          5
+[end]
+
+[Glider Eater 1 Fish Hook]
+angle:      0
+flip:       None
+anchor:     0,0
+place:      1,1
+[end]

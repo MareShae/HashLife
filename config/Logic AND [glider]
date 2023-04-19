@@ -1,0 +1,53 @@
+# AND Logic Gate
+[grid]
+W:          152
+H:          75
+[end]
+
+# Input A
+[Gosper Glider Gun p30]
+angle:      0
+flip:       None
+anchor:     0,0
+place:      3,1
+[end]
+
+# Input B
+[Gosper Glider Gun p30]
+angle:      0
+flip:       None
+anchor:     0,0
+place:      2,70
+[end]
+
+# Stream R
+[Gosper Glider Gun p30]
+angle:      0
+flip:       HORIZONTAL
+anchor:     0,0
+place:      1,115
+[end]
+
+# Stopper A
+[Glider Eater 1 Fish Hook]
+angle:      270
+flip:       VERTICAL
+anchor:     0,0
+place:      16,27
+[end]
+
+# Stopper B
+[Glider Eater 1 Fish Hook]
+angle:      270
+flip:       VERTICAL
+anchor:     0,0
+place:      15,96
+[end]
+
+# Stopper R
+[Glider Eater 1 Fish Hook]
+angle:      0
+flip:       HORIZONTAL
+anchor:     0,0
+place:      70,64
+[end]

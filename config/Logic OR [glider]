@@ -1,0 +1,64 @@
+[grid]
+W:          184
+H:          85
+[end]
+
+# GUNNERS -------------------------------------------------------
+
+# Stream L
+[Gosper Glider Gun p30]
+angle:      0
+flip:       None
+anchor:     0,0
+place:      3,1
+[end]
+
+# Input A
+[Gosper Glider Gun p30]
+angle:      0
+flip:       None
+anchor:     0,0
+place:      3,47
+[end]
+
+# Input B
+[Gosper Glider Gun p30]
+angle:      0
+flip:       None
+anchor:     0,0
+place:      3,101
+[end]
+
+# Stream R
+[Gosper Glider Gun p30]
+angle:      0
+flip:       HORIZONTAL
+anchor:     0,0
+place:      1,146
+[end]
+
+# STOPPERS ------------------------------------------------------
+
+# Stopper A
+[Glider Eater 1 Fish Hook]
+angle:      270
+flip:       VERTICAL
+anchor:     0,0
+place:      16,73
+[end]
+
+# Stopper A second
+[Glider Eater 1 Fish Hook]
+angle:      270
+flip:       VERTICAL
+anchor:     0,0
+place:      60,117
+[end]
+
+# Stopper B
+[Glider Eater 1 Fish Hook]
+angle:      270
+flip:       VERTICAL
+anchor:     0,0
+place:      16,127
+[end]

@@ -1,0 +1,20 @@
+[grid]
+W:          73
+H:          35
+[end]
+
+# Splits out a spaceship HORIZONTALLY
+[Lightweight Spaceship Factory p30 f30]
+angle:      0
+flip:       None
+anchor:     0,0
+place:      1,1
+[end]
+
+# Shift HORIZONTALLY in cells of 4
+[Glider Eater 1 Fish Hook]
+angle:      0
+flip:       VERTICAL
+anchor:     0,0
+place:      7,68
+[end]

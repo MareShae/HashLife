@@ -1,0 +1,15 @@
+GLOSSARY:
+LWSS    Light weight Spaceship
+MWSS    Medium weight Spaceship
+
+TO NOTE:
+:p stands for period. The time it takes an oscillator to regain its first form.
+:c stands for "speed of light". The maximum possible speed of any moving pattern.
+
+Speed:
+The glider takes 4 generations to move one cell diagonally      v = c/4
+The LWSS takes 2 generations to move one cell orthogonally      v = c/2
+
+BIBLIOGRAPHY:
+[1]     https://conwaylife.com/ref/lexicon/lex.htm
+[2]     https://web.mit.edu/sp.268/www/2010/lifeSlides.pdf

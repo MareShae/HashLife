@@ -1,0 +1,11 @@
+[grid]
+W:          87
+H:          66
+[end]
+
+[Lightweight Spaceship Factory p30 f15]
+angle:      0
+flip:       None
+anchor:     0,0
+place:      1,1
+[end]

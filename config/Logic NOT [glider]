@@ -1,0 +1,34 @@
+# NOT Logic Gate
+[grid]
+W:          83
+H:          40
+[end]
+
+# Input A
+[Gosper Glider Gun p30]
+angle:      0
+flip:       None
+anchor:     0,0
+place:      2,1
+[end]
+
+[Gosper Glider Gun p30]
+angle:      0
+flip:       HORIZONTAL
+anchor:     0,0
+place:      1,46
+[end]
+
+[Glider Eater 1 Fish Hook]
+angle:      270
+flip:       VERTICAL
+anchor:     0,0
+place:      15,27
+[end]
+
+[Glider Eater 1 Fish Hook]
+angle:      0
+flip:       HORIZONTAL
+anchor:     0,0
+place:      35,30
+[end]

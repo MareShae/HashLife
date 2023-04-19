@@ -1,0 +1,62 @@
+[grid]
+W:          93
+H:          165
+[end]
+
+# CONTROL STREAM A ---------------------------------------------------------
+
+# Splits out a spaceship VERTICALLY
+[Lightweight Spaceship Factory p30 f30]
+angle:      90
+flip:       None
+anchor:     0,0
+place:      1,59
+[end]
+
+# Shift VERTICALLY in cells of 4
+[Glider Eater 1 Fish Hook]
+angle:      270
+flip:       VERTICAL
+anchor:     0,0
+place:      148,82
+[end]
+
+# INPUT STREAM A -----------------------------------------------------------
+
+# Splits out a spaceship HORIZONTALLY
+[Lightweight Spaceship Factory p30 f30]
+angle:      0
+flip:       None
+anchor:     0,0
+place:      68,1
+[end]
+
+# Shift HORIZONTALLY in cells of 4
+# Input(0):x,102
+# Input(1):x,120
+[Glider Eater 1 Fish Hook]
+angle:      0
+flip:       VERTICAL
+anchor:     0,0
+place:      74,70
+[end]
+
+# INPUT STREAM B -----------------------------------------------------------
+
+# Splits out a spaceship HORIZONTALLY
+[Lightweight Spaceship Factory p30 f30]
+angle:      0
+flip:       None
+anchor:     0,0
+place:      127,1
+[end]
+
+# Shift HORIZONTALLY in cells of 4
+# Input(0):x,102
+# Input(1):x,120
+[Glider Eater 1 Fish Hook]
+angle:      0
+flip:       VERTICAL
+anchor:     0,0
+place:      133,88
+[end]
